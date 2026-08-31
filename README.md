@@ -22,11 +22,11 @@ Every OpenAI-compatible client needs the same three settings; only *where they g
 | Cline | Settings → API Provider → "OpenAI Compatible" | [agents/cline.md](agents/cline.md) |
 | Roo Code | Settings → "OpenAI Compatible" provider | [agents/roo-code.md](agents/roo-code.md) |
 | Hermes Agent | `~/.hermes/config.yaml` `model:` block | [agents/hermes.md](agents/hermes.md) |
-| Continue | `config.yaml` — model with `provider: openai` + `apiBase` | [docs](https://docs.continue.dev/customize/model-providers/openai) |
-| Cursor | Settings → Models → Override OpenAI Base URL | [docs](https://docs.cursor.com/settings/models) |
-| Kilo Code | Settings → "OpenAI Compatible" provider | [docs](https://kilocode.ai/docs) |
-| Zed | `settings.json` `language_models` block, `api_url` | [docs](https://zed.dev/docs/ai/configuration) |
-| Oh My Pi | `~/.omp/agent/models.yml` | [docs](https://github.com/can1357/oh-my-pi) |
+| Continue | `config.yaml` — model with `provider: openai` + `apiBase` | [agents/continue.md](agents/continue.md) |
+| Cursor | Settings → Models → Override OpenAI Base URL | [agents/cursor.md](agents/cursor.md) |
+| Kilo Code | Settings → "OpenAI Compatible" provider | [agents/kilo-code.md](agents/kilo-code.md) |
+| Zed | `settings.json` `language_models` block, `api_url` | [agents/zed.md](agents/zed.md) |
+| Oh My Pi | `~/.omp/agent/models.yml` | [agents/oh-my-pi.md](agents/oh-my-pi.md) |
 | Trae IDE | Model settings → custom OpenAI-compatible model | [docs](https://docs.trae.ai) |
 
 ## Endpoints these configs work with
@@ -39,6 +39,10 @@ Any server or service speaking the OpenAI chat-completions format:
 - **First-party:** OpenAI, Anthropic (Messages API), and their official SDKs
 
 Model availability, tool-calling support, and reasoning-parameter support vary by endpoint — check your provider's model list.
+
+## Endpoint quirks
+
+See [ENDPOINT-QUIRKS.md](ENDPOINT-QUIRKS.md) for the differences between endpoints that most often break agent setups (`developer` role, `reasoning_effort`, `/v1` suffix conventions, streaming tool calls).
 
 ## Contributing
 
