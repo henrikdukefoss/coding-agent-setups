@@ -44,6 +44,10 @@ Model availability, tool-calling support, and reasoning-parameter support vary b
 
 See [ENDPOINT-QUIRKS.md](ENDPOINT-QUIRKS.md) for the differences between endpoints that most often break agent setups (`developer` role, `reasoning_effort`, `/v1` suffix conventions, streaming tool calls).
 
+## See what your agents cost
+
+[tokenreceipt](https://github.com/henrikdukefoss/tokenreceipt) reads the local logs these agents write (Claude Code, Codex CLI, OpenCode, Gemini CLI, Cline, Roo, Kilo, Pi, Hermes) and prints your usage at API list prices as a receipt. Runs locally: `npx github:henrikdukefoss/tokenreceipt`.
+
 ## Contributing
 
 PRs welcome: new agents, corrections, or additional endpoint quirks (e.g. `developer`-role compatibility flags). Keep entries factual and provider-neutral.
