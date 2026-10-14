@@ -20,6 +20,6 @@ Add a provider block to `opencode.json` (project) or `~/.config/opencode/opencod
 }
 ```
 
-Then `/model` inside opencode and pick it. Local example: `"baseURL": "http://localhost:11434/v1"` for Ollama.
+Then `/models` inside opencode and pick it. Local example: `"baseURL": "http://localhost:11434/v1"` for Ollama.
 
 Docs: https://opencode.ai/docs/providers
