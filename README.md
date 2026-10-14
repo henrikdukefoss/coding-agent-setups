@@ -48,6 +48,16 @@ See [ENDPOINT-QUIRKS.md](ENDPOINT-QUIRKS.md) for the differences between endpoin
 
 [tokenreceipt](https://github.com/henrikdukefoss/tokenreceipt) reads the local logs these agents write (Claude Code, Codex CLI, OpenCode, Gemini CLI, Cline, Roo, Kilo, Pi, Hermes) and prints your usage at API list prices as a receipt. Runs locally: `npx github:henrikdukefoss/tokenreceipt`.
 
+## Related guides
+
+Written by Standard Compute, which maintains this repo:
+
+- [Claude Code with other models](https://standardcompute.com/claude-code-other-models) and [Codex CLI with non-OpenAI models](https://standardcompute.com/codex-cli-other-models): config, providers and trade-offs for the two agents that need the most setup.
+- [Fixing "model does not exist" (404)](https://standardcompute.com/fix/model-not-found): wrong model ID, extra `/v1` and other causes.
+- [Fixing "maximum context length exceeded" (400)](https://standardcompute.com/fix/context-length-exceeded): what it means when an agent sends more than the endpoint's model accepts.
+- [Tool calling, MCP, streaming and caching through an LLM gateway](https://standardcompute.com/llm-gateway-compatibility): which features survive a proxy and which don't.
+- [OpenCode on a fixed monthly price](https://standardcompute.com/opencode-flat-rate). Also in: [Español](https://standardcompute.com/opencode-precio-fijo) · [Português](https://standardcompute.com/opencode-preco-fixo) · [Deutsch](https://standardcompute.com/opencode-flatrate) · [Français](https://standardcompute.com/opencode-forfait)
+
 ## Contributing
 
 PRs welcome: new agents, corrections, or additional endpoint quirks (e.g. `developer`-role compatibility flags). Keep entries factual and provider-neutral.
