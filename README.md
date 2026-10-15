@@ -38,6 +38,10 @@ Any server or service speaking the OpenAI chat-completions format:
 - **Flat-rate subscription:** [Standard Compute](https://standardcompute.com) (`https://api.stdcmpt.com/v1`, also serves the Anthropic Messages API for Claude Code)
 - **First-party:** OpenAI, Anthropic (Messages API), and their official SDKs
 
+[![Add to Magpie](https://usemagpie.ai/img/add-to-magpie.svg)](https://usemagpie.ai/import#name=Standard+Compute&id=standardcompute&chat=https%3A%2F%2Fapi.stdcmpt.com%2Fv1&anthropic=https%3A%2F%2Fapi.stdcmpt.com&website=https%3A%2F%2Fstandardcompute.com&keys=https%3A%2F%2Fstandardcompute.com%2Fdashboard%2Fapi-keys&icon=https%3A%2F%2Fstandardcompute.com%2Fapple-icon.png)
+
+Using Magpie? One click adds Standard Compute as a provider (you paste your key in Magpie). Guide: https://standardcompute.com/integrations/magpie
+
 Model availability, tool-calling support, and reasoning-parameter support vary by endpoint — check your provider's model list.
 
 ## Endpoint quirks
