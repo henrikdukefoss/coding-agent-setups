@@ -17,6 +17,6 @@ In `settings.json`:
 }
 ```
 
-Zed prompts for the API key on first use (stored in the system keychain).
+Enter the key under **Settings → AI → LLM Providers** (stored in the system keychain), or set an env var named after the provider ID in upper snake case plus `_API_KEY` (`myprovider` → `MYPROVIDER_API_KEY`).
 
-Docs: https://zed.dev/docs/ai/configuration
+Docs: https://zed.dev/docs/ai/use-api-access

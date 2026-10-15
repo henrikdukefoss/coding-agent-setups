@@ -5,6 +5,9 @@
 3. Paste your key as the OpenAI API key.
 4. Add your model id as a custom model name and enable it.
 
-Note: overriding the base URL disables Cursor's built-in model list for that provider — you talk to your endpoint's models only.
+Notes:
+- Overriding the base URL disables Cursor's built-in model list for that provider — you talk to your endpoint's models only.
+- Custom keys only work with chat models; Tab completion keeps using Cursor's own models.
+- Requests go through Cursor's servers, so the endpoint must be reachable over public HTTPS (`localhost` needs a tunnel).
 
-Docs: https://docs.cursor.com/settings/models
+Docs: https://cursor.com/help/models-and-usage/api-keys
